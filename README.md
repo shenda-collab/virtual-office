@@ -22,7 +22,9 @@ Phase II
 Photoshop was used to process the seams between the rooms.
 使用了Photoshop处理房间之间的接缝
 <img src="./images/wan.png">
-<img src="./images/ss.png">
+<img src="./images/ss.png" width="300">
+<img src="./images/room(2).png">
+<img src="./images/penguin.png" width="100">
 
 
 Phase III
