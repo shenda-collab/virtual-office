@@ -48,5 +48,14 @@ I utilized AI tools (ChatGPT, Codex) for image generation and for creating sourc
 使用了AI工具（Chatgpt，Codex），图片生成和根据Figma源文件复制设计创建源代码，Chatgpt图片生成工具大部分时间不能准确的理解提示词，需要不断的修改提示词和后期Photoshop的帮助。
 
 
+<p align="center">
+<img src="./images/B.png" width="250">
+<img src="./images/ss.png" width="250">
+</p>
+
+<p align="center">
+<img src="./images/B1.png" width="350">
+<img src="./images/A1.png" width="350">
+</p>
 
 
