@@ -23,7 +23,7 @@ Photoshop was used to process the seams between the rooms.
 使用了Photoshop处理房间之间的接缝
 <img src="./images/wan.png">
 <img src="./images/ss.png" width="300">
-<img src="./images/room(2).png">
+<img src="./images/room.png" width="400">
 <img src="./images/penguin.png" width="100">
 
 
@@ -46,4 +46,7 @@ Phase VI
 
 I utilized AI tools (ChatGPT, Codex) for image generation and for creating source code by replicating designs from Figma source files. However, the image generation tools often failed to accurately interpret prompts, necessitating constant prompt refinement and post-processing in Photoshop.
 使用了AI工具（Chatgpt，Codex），图片生成和根据Figma源文件复制设计创建源代码，Chatgpt图片生成工具大部分时间不能准确的理解提示词，需要不断的修改提示词和后期Photoshop的帮助。
+
+
+
 
