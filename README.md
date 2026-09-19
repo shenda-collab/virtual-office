@@ -1,10 +1,11 @@
 # Virtual Office prototype
+https://shenda-collab.github.io/virtual-office/
 
 Standalone, dependency-free prototype built from the supplied Figma frame (`1:2`). The panorama, characters, and sidebar icons are local copies of Figma assets.
 
 ## Run
-
-From this folder, run `node server.js`, then open `http://localhost:4173`.
+Run locally
+from this folder, run `node server.js`, then open `http://localhost:4173`.
 
 Drag, scroll, swipe, or use the left and right arrow keys to navigate. Select a person to open the prototype message card. Messages remain in the browser only and are not delivered.
 
