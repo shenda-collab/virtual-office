@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>Virtual Office</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./charts.css">
+  <link rel="stylesheet" href="./figma-updates.css">
+</head>
+<body>
+  <main id="app" class="app" aria-label="Panoramic virtual office">
+    <div id="panorama" class="panorama" aria-label="Drag or scroll to explore the office">
+      <div id="world" class="world">
+        <img class="world-background" src="./assets/imgWan1.png" alt="Panoramic virtual office" draggable="false">
+        <div class="whiteboard-content" aria-label="Sample charts on the office whiteboards">
+          <section class="board-chart board-chart-bars" aria-label="Sample weekly activity bar chart">
+            <div class="chart-heading"><div><strong>Weekly Activity</strong><span>Sample data · AI Command Center</span></div><b>+12.4%</b></div>
+            <div class="bar-chart" aria-hidden="true">
+              <div class="bar-column"><span style="--bar-height:48%"></span><small>Mon</small></div>
+              <div class="bar-column"><span style="--bar-height:72%"></span><small>Tue</small></div>
+              <div class="bar-column"><span style="--bar-height:61%"></span><small>Wed</small></div>
+              <div class="bar-column"><span style="--bar-height:88%"></span><small>Thu</small></div>
+              <div class="bar-column"><span style="--bar-height:77%"></span><small>Fri</small></div>
+            </div>
+          </section>
+          <section class="board-chart board-chart-pie" aria-label="Sample case mix pie chart">
+            <div class="chart-heading"><div><strong>Case Mix</strong><span>Sample data · Case Management</span></div></div>
+            <div class="pie-layout">
+              <div class="pie-chart" role="img" aria-label="General 42 percent, Follow-up 28 percent, Specialty 18 percent, Other 12 percent"><div><strong>100%</strong><small>cases</small></div></div>
+              <div class="pie-legend" aria-hidden="true"><div><i class="legend-general"></i><span>General</span><b>42%</b></div><div><i class="legend-follow"></i><span>Follow-up</span><b>28%</b></div><div><i class="legend-specialty"></i><span>Specialty</span><b>18%</b></div><div><i class="legend-other"></i><span>Other</span><b>12%</b></div></div>
+            </div>
+          </section>
+        </div>
+        <div class="figma-visual-updates" aria-hidden="true">
+          <img class="sgvmc-logo sgvmc-logo-1" src="./assets/imgCodex20269181953112.png" alt="">
+          <span class="sgvmc-crop sgvmc-logo-2"><img src="./assets/imgCodex20269181953112.png" alt=""></span>
+          <span class="sgvmc-crop sgvmc-logo-3"><img src="./assets/imgCodex20269181953112.png" alt=""></span>
+          <span class="sgvmc-crop sgvmc-logo-4"><img src="./assets/imgCodex20269181953112.png" alt=""></span>
+          <img class="sgvmc-logo sgvmc-logo-5" src="./assets/imgCodex20269181953112.png" alt="">
+          <img class="alt-logo" src="./assets/imgCodex20269182010251.png" alt="">
+        </div>
+        <div id="people" class="people"></div>
+      </div>
+    </div>
+    <div id="section-overlay" class="section-overlay" aria-live="polite"></div>
+    <div class="status-bar" aria-label="Office status">
+      <div class="status-card"><span>Online</span><strong>06</strong></div>
+      <div class="status-card"><span>Working</span><strong>05</strong></div>
+      <div class="status-card"><span>Lunch</span><strong>06</strong></div>
+      <div class="status-card"><span>Away</span><strong>28</strong></div>
+    </div>
+    <nav id="sidebar" class="sidebar" aria-label="Primary navigation"></nav>
+    <div id="explore-hint" class="explore-hint"><img src="./assets/imgArrowLeft.svg" alt=""><span>Drag or scroll to explore</span><img src="./assets/imgArrowRight.svg" alt=""></div>
+    <aside id="message-panel" class="message-panel" aria-label="Message a person" hidden></aside>
+  </main>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

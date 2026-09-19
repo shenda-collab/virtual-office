@@ -1,0 +1,21 @@
+.whiteboard-content{position:absolute;inset:0;pointer-events:none}
+.board-chart{position:absolute;height:270px;padding:22px 26px;border:1px solid rgba(203,213,225,.75);border-radius:13px;background:rgba(255,255,255,.76);box-shadow:0 12px 28px rgba(15,23,42,.08);backdrop-filter:blur(2px)}
+.board-chart-bars{left:2010px;top:202px;width:520px}
+.board-chart-pie{left:5198px;top:202px;width:480px}
+.chart-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
+.chart-heading strong{display:block;font:600 20px Outfit,Arial,sans-serif;color:#1e293b}
+.chart-heading span{display:block;margin-top:4px;font-size:11px;color:#64748b}
+.chart-heading>b{padding:6px 9px;border-radius:6px;background:rgba(13,148,136,.1);color:#0d9488;font-size:11px}
+.bar-chart{position:relative;display:flex;justify-content:space-around;align-items:flex-end;gap:18px;height:158px;margin-top:17px;padding:0 14px 21px;border-bottom:1px solid #cbd5e1;background:repeating-linear-gradient(to top,transparent 0,transparent 33px,rgba(148,163,184,.18) 34px,transparent 35px)}
+.bar-column{position:relative;display:flex;align-items:flex-end;justify-content:center;width:44px;height:100%}
+.bar-column>span{display:block;width:100%;height:var(--bar-height);border-radius:6px 6px 0 0;background:linear-gradient(180deg,#2dd4bf,#0d9488)}
+.bar-column:nth-child(2)>span,.bar-column:nth-child(4)>span{background:linear-gradient(180deg,#60a5fa,#2563a8)}
+.bar-column small{position:absolute;top:calc(100% + 6px);font-size:11px;color:#64748b}
+.pie-layout{display:flex;align-items:center;gap:30px;margin-top:18px}
+.pie-chart{display:grid;place-items:center;flex:none;width:155px;height:155px;border-radius:50%;background:conic-gradient(#0d9488 0 42%,#38bdf8 42% 70%,#94a3b8 70% 88%,#cbd5e1 88% 100%)}
+.pie-chart>div{display:flex;flex-direction:column;align-items:center;justify-content:center;width:96px;height:96px;border-radius:50%;background:rgba(255,255,255,.95)}
+.pie-chart strong{font-size:22px;color:#1e293b}.pie-chart small{font-size:11px;color:#64748b}
+.pie-legend{display:grid;gap:14px;flex:1}
+.pie-legend>div{display:flex;align-items:center;gap:9px;font-size:11px;color:#475569}
+.pie-legend i{width:10px;height:10px;border-radius:3px}.pie-legend span{flex:1}.pie-legend b{font-size:12px;color:#1e293b}
+.legend-general{background:#0d9488}.legend-follow{background:#38bdf8}.legend-specialty{background:#94a3b8}.legend-other{background:#cbd5e1}

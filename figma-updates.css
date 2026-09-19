@@ -1,0 +1,13 @@
+.figma-visual-updates{position:absolute;inset:0;pointer-events:none}
+.sgvmc-logo,.sgvmc-crop,.alt-logo{position:absolute;display:block}
+.sgvmc-logo,.sgvmc-crop{z-index:2}
+.sgvmc-logo{width:166px;height:55px;object-fit:cover}
+.sgvmc-logo-1{left:103px;top:344px}
+.sgvmc-logo-2{left:347px;top:344px;width:124px;height:55px;overflow:hidden}
+.sgvmc-logo-2 img{position:absolute;left:.5px;top:0;width:165px;height:55px;max-width:none}
+.sgvmc-logo-3{left:1029px;top:348px;width:127px;height:55px;overflow:hidden}
+.sgvmc-logo-3 img{position:absolute;left:-38.5px;top:0;width:165px;height:55px;max-width:none}
+.sgvmc-logo-4{left:1365px;top:348px;width:82px;height:55px;overflow:hidden}
+.sgvmc-logo-4 img{position:absolute;left:.5px;top:0;width:165px;height:55px;max-width:none}
+.sgvmc-logo-5{left:1162px;top:348px}
+.alt-logo{left:3832px;top:200px;width:146px;height:109px;object-fit:cover}
